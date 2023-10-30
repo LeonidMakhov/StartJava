@@ -2,7 +2,7 @@ import java.util.Date;
 
 public class VariableNamesTheme {
     public static void main(String[] arg) {
-        //цифра  
+        //цифрау
         int num = 2;
         System.out.println("1. цифра = " + num + "\n");
 
