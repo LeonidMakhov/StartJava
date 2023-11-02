@@ -3,7 +3,7 @@ import java.util.Date;
 public class VariableTheme {
     public static void main(String[] arg) {
         Boolean wifi = true;
-        byte numA= 16;
+        byte numA = 16;
         short numB = 64;
         int numC = 512000;
         long numD = 455665221;
