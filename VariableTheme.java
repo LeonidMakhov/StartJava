@@ -87,12 +87,12 @@ public class VariableTheme {
         );
         System.out.println("с помощью побитовых операций: " + "\n" + 
             "исходные значения переменных: " + "\n" +
-            "numT = " + numT + "\n" +
-            "numU = " + numU
+            "numT = " + (Integer.toBinaryString(numT)) + "\n" +
+            "numU = " + (Integer.toBinaryString(numU))
         );
         System.out.println("новые значения переменных: " + "\n" +
-            "numT = " + (Integer.toBinaryString(numT)) + "\n" +
-            "numU = " + (Integer.toBinaryString(numU)) + "\n"
+            "numT = " + (Integer.toBinaryString(numT ^ numT | numU)) + "\n" +
+            "numU = " + (Integer.toBinaryString(numU ^ numU | numT)) + "\n"
         );
 
         int numBa = 36;
@@ -132,7 +132,7 @@ public class VariableTheme {
         int numN;
         int numO;
         System.out.println("8. Вывод количества сотен, десятков и единиц числа:");
-        System.out.println("Число N содержит:");
+        System.out.println("Число numL содержит:");
         System.out.println("сотен - " + (numM = numL / 100));
         System.out.println("десятков - " + (numN = numL % 100 / 10));
         System.out.println("единиц - " + (numO = numL % 10 / 1));
