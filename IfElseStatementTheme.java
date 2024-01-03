@@ -97,7 +97,7 @@ public class IfElseStatementTheme {
             System.out.println("Символ " + symbol + " не буква и не цифра" + "\n");
         }
 
-        double money = 301000d;
+        int money = 301000;
         System.out.println("6. Подсчет суммы вклада и начисленных банком %");
         if (money < 100000) {
             System.out.println("сумма вклада: " + money);
@@ -113,12 +113,12 @@ public class IfElseStatementTheme {
             System.out.println("итоговая сумма c 10%: " + (money + ((money * 0.10)/365)) + "\n");
         }
 
-        double history = 0,59d;
-        double programm = 0,92d;
-        int two = 2;
-        int three = 3;
-        int four = 4;
-        int five = 5;
+        float history = 0.59f;
+        float programm = 0.92f;
+        float two = 2f;
+        float three = 3f;
+        float four = 4f;
+        float five = 5f;
         System.out.println("7. Определение оценки по предметам");
         if (history <= 0.6 && programm <= 0.6) {
             System.out.println("история: " + two);
@@ -173,7 +173,7 @@ public class IfElseStatementTheme {
         } else if (history > 0.6 && programm <= 0.6) {
             System.out.println("история: " + three);
             System.out.println("программирование : " + two);
-            System.out.println("средний балл оценок по предметам : " + (five + five) / 2);
+            System.out.println("средний балл оценок по предметам : " + (three + two) / 2);
             System.out.println("средний % по предметам : " + (history + programm) / 2 + "\n");
         } else if (history > 0.73 && programm <= 0.6) {
             System.out.println("история: " + four);
@@ -183,15 +183,34 @@ public class IfElseStatementTheme {
         } else if (history > 0.91 && programm <= 0.6) {
             System.out.println("история: " + five);
             System.out.println("программирование : " + two);
-            System.out.println("средний балл оценок по предметам : " + (five + five) / 2);
+            System.out.println("средний балл оценок по предметам : " + (five + two) / 2);
             System.out.println("средний % по предметам : " + (history + programm) / 2 + "\n");
-        } else if (history > 0.91 && programm <= 0.6) {
+        } else if (history > 0.73 && programm > 0.6) {
+            System.out.println("история: " + four);
+            System.out.println("программирование : " + three);
+            System.out.println("средний балл оценок по предметам : " + (four + three) / 2);
+            System.out.println("средний % по предметам : " + (history + programm) / 2 + "\n");
+        } else if (history > 0.91 && programm > 0.6) {
             System.out.println("история: " + five);
-            System.out.println("программирование : " + two);
-            System.out.println("средний балл оценок по предметам : " + (five + five) / 2);
+            System.out.println("программирование : " + three);
+            System.out.println("средний балл оценок по предметам : " + (five + three) / 2);
             System.out.println("средний % по предметам : " + (history + programm) / 2 + "\n");
-
+        } else if (history > 0.91 && programm > 0.73) {
+            System.out.println("история: " + five);
+            System.out.println("программирование : " + four);
+            System.out.println("средний балл оценок по предметам : " + (five + four) / 2);
+            System.out.println("средний % по предметам : " + (history + programm) / 2 + "\n");
         }
 
+        int things = 14000;
+        int rent = 5000;
+        int primeCost = 9000;
+        int income = things - rent - primeCost;
+        System.out.println("8. Расчет годовой прибыли");
+        if (income <= 0) {
+            System.out.println("Прибыль за год:  " + income + " руб." + "\n");
+        } else if (income > 0) {
+            System.out.println("Прибыль за год: + " + income + " руб." + "\n");
+        } 
     }
 }
