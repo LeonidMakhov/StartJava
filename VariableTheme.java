@@ -92,7 +92,7 @@ public class VariableTheme {
         );
         System.out.println("новые значения переменных: " + "\n" +
             "numT = " + (Integer.toBinaryString(numT ^ numT | numU)) + "\n" +
-            "numU = " + (Integer.toBinaryString(numU ^ numU | numT)) + "\n"
+            "numU = " + (Integer.toBinaryString(numU ^ numU |numT)) + "\n"
         );
 
         int numBa = 36;
