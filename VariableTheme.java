@@ -11,7 +11,7 @@ public class VariableTheme {
         float numF = 243.5f;
         double numG = 45.44456564688d;
         String str = "Компьютер ЛЕОНИДА !!!!";
-        System.out.println("1. Вывод характеристик компьютера: " +"\n" +
+        System.out.println("1. Вывод характеристик компьютера:  " +"\n" +
             "Имя компьютера- " + str + " на 100 " + numE + "\n" +
             "Наличие Wifi- " + wifi +"\n" +
             "Оперативная память- " + numA + " Гб" + "\n" +
@@ -32,7 +32,7 @@ public class VariableTheme {
             " руб." + "\n"
         );
 
-        System.out.println("3. Вывод слово JAVA:");
+        System.out.println("3. Вывод слово JAVA: ");
         System.out.println("    J    a   v     v   a");
         System.out.println("    J   a a   v   v   a a");
         System.out.println("J   J  aaaaa   V V   aaaaa");
@@ -92,7 +92,7 @@ public class VariableTheme {
         );
         System.out.println("новые значения переменных: " + "\n" +
             "numT = " + (Integer.toBinaryString(numT ^ numT | numU)) + "\n" +
-            "numU = " + (Integer.toBinaryString(numU ^ numU |numT)) + "\n"
+            "numU = " + (Integer.toBinaryString(numU ^ numU|numT)) + "\n"
         );
 
         int numBa = 36;
@@ -132,12 +132,12 @@ public class VariableTheme {
         int numN;
         int numO;
         System.out.println("8. Вывод количества сотен, десятков и единиц числа:");
-        System.out.println("Число numL содержит:");
+        System.out.println("Число numL содержит: ");
         System.out.println("сотен - " + (numM = numL / 100));
         System.out.println("десятков - " + (numN = numL % 100 / 10));
         System.out.println("единиц - " + (numO = numL % 10 / 1));
         System.out.println("Сумма его цифр = " + (numM + numN + numO));
-        System.out.println("Произведение = " + (numM * numN * numO) + "\n");
+        System.out.println("Произведение  = " + (numM * numN * numO) + "\n");
 
         int sec = 86399;
         int min = (sec / 60) % 60;
