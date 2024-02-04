@@ -5,7 +5,7 @@ public class IfElseStatementTheme {
         String sex = "man";
         System.out.println("1. Перевод псевдокода на язык Java");
         if (sex != "man") {
-            System.out.println("Женщина");
+            System.out.println("Женщина ");
         } else {
             System.out.println("Мужчина");
         }
@@ -202,15 +202,15 @@ public class IfElseStatementTheme {
             System.out.println("средний % по предметам : " + (history + programm) / 2 + "\n");
         }
 
-        int things = 14000;
+        int things = 103000;
         int rent = 5000;
         int primeCost = 9000;
         int income = things - rent - primeCost;
         System.out.println("8. Расчет годовой прибыли");
         if (income <= 0) {
-            System.out.println("Прибыль за год:  " + income + " руб." + "\n");
+            System.out.println("Прибыль за год: " + income + " руб." + "\n");
         } else if (income > 0) {
-            System.out.println("Прибыль за год: + " + income + " руб." + "\n");
+            System.out.println("Прибыль за год: +" + income + " руб." + "\n");
         } 
     }
 }

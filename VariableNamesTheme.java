@@ -4,7 +4,7 @@ public class VariableNamesTheme {
     public static void main(String[] arg) {
         //цифрау
         int num = 2;
-        System.out.println("1. цифра = " + num + "\n");
+        System.out.println("1. цифра =  " + num + "\n");
 
         //сумма чисел
         int sum = 40 + 14;
