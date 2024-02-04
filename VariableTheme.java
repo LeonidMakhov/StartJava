@@ -11,7 +11,7 @@ public class VariableTheme {
         float numF = 243.5f;
         double numG = 45.44456564688d;
         String str = "Компьютер ЛЕОНИДА !!!!";
-        System.out.println("1. Вывод характеристик компьютера:  " +"\n" +
+        System.out.println("1. Вывод характеристик компьютера: " +"\n" +
             "Имя компьютера- " + str + " на 100 " + numE + "\n" +
             "Наличие Wifi- " + wifi +"\n" +
             "Оперативная память- " + numA + " Гб" + "\n" +

@@ -5,7 +5,7 @@ public class IfElseStatementTheme {
         String sex = "man";
         System.out.println("1. Перевод псевдокода на язык Java");
         if (sex != "man") {
-            System.out.println("Женщина ");
+            System.out.println("Женщина");
         } else {
             System.out.println("Мужчина");
         }
