@@ -37,9 +37,11 @@ public class IfElseStatementTheme {
         int numSecond = 30;
         System.out.println("2. Поиск большего числа");
         if (numFirst > numSecond) {
-            System.out.println("1 = " + numFirst + "\n" + "2 = " + numSecond + "\n");
+            System.out.println("1 = " + numFirst + "\n" +
+                "2 = " + numSecond + "\n");
         } else if (numSecond > numFirst) {
-            System.out.println("1 = " + numSecond + "\n" + "2 = " + numFirst + "\n");
+            System.out.println("1 = " + numSecond + "\n" +
+                "2 = " + numFirst + "\n");
         } else {
             System.out.println("Значения равны:" + numFirst + " = " + numSecond + "\n");
         }
