@@ -2,7 +2,7 @@ import java.util.Date;
 
 public class VariableNamesTheme {
     public static void main(String[] arg) {
-        //цифрау
+        //цифра
         int num = 2;
         System.out.println("1. цифра = " + num + "\n");
 
@@ -180,7 +180,7 @@ public class VariableNamesTheme {
 
         //кодировка american standard code for information interchange 
         String codeInform = "ASCII";
-        System.out.println("44. кодировка american standard code for information interchange = " + codeInform + "\n");
+        System.out.println("45. кодировка american standard code for information interchange = " + codeInform + "\n");
 
     }
 }
