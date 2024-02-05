@@ -7,7 +7,7 @@ public class IfElseStatementTheme {
         if (sex != "man") {
             System.out.println("Женщина");
         } else {
-            System.out.println("Мужчина");
+            System.out.println("Мужчина ");
         }
 
         int age = 25;
