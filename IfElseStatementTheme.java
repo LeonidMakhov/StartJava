@@ -14,7 +14,7 @@ public class IfElseStatementTheme {
         if (age > 18) {
             System.out.println("Взрослый");
         } else {
-            System.out.println("Ребенок252");
+            System.out.println("Ребенок");
         }
 
         float height = 2f;
