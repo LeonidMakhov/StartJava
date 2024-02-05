@@ -65,9 +65,9 @@ public class VariableTheme {
         int numV;
         System.out.println("5. Перестановка значений переменных" + "\n");
         System.out.println("с помощью третьей переменной: " + "\n" + 
-                "исходные значения переменных: " + "\n" +
-                "numT = " + numT + "\n" +
-                "numU = " + numU
+            "исходные значения переменных: " + "\n" +
+            "numT = " + numT + "\n" +
+            "numU = " + numU
         );
             numV = numU;
             numU = numT;
