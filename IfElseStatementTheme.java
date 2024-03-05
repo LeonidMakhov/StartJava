@@ -26,11 +26,11 @@ public class IfElseStatementTheme {
 
         char firstLatterName = "Ikosin".charAt(0);
                 if (firstLatterName == 'M') {
-            System.out.println("Бинго" + "\n");
+            System.out.println("Бинго\n");
         } else if (firstLatterName == 'I') {
-            System.out.println("Чистая удача" + "\n");
+            System.out.println("Чистая удача\n");
         } else {
-            System.out.println("Давай другое имя" + "\n");
+            System.out.println("Давай другое имя\n");
         }
 
         int numFirst = 20;
@@ -51,13 +51,13 @@ public class IfElseStatementTheme {
         if (numThree == 0) {
             System.out.println("Число равно = " + numThree + "\n");
         } else if (numThree % 2 == 1 & numThree > 0) {
-            System.out.println(numThree + " является положительным и нечетным" + "\n");
+            System.out.println(numThree + " является положительным и нечетным\n");
         } else if (numThree % 2 == 1 & numThree < 0) {
-            System.out.println(numThree + " является отрицательным и нечетным" + "\n");
+            System.out.println(numThree + " является отрицательным и нечетным\n");
         } else if (numThree % 2 == 0 & numThree > 0) {
-            System.out.println(numThree + " является положительным и четным" + "\n");
+            System.out.println(numThree + " является положительным и четным\n");
         } else if (numThree % 2 == 0 & numThree < 0) {
-            System.out.println(numThree + " является отрицательным и четным" + "\n");
+            System.out.println(numThree + " является отрицательным и четным\n");
         }
 
         int numFour = 123;
@@ -74,29 +74,29 @@ public class IfElseStatementTheme {
         if (firstNumberFour == firstNumberFive) {
             System.out.println("Исходные числа: " + numFour + " ; " + numFive);
             System.out.println("Одинаковые в них цифры: " + firstNumberFour);
-            System.out.println("Номера разрядов: " + "0" + " ; " + "0" + "\n");
+            System.out.println("Номера разрядов: " + "0" + " ; " + "0\n");
         } if (secondNumberFour == secondNumberFive) {
             System.out.println("Исходные числа: " + numFour + " ; " + numFive);
             System.out.println("Одинаковые в них цифры: " + secondNumberFour);
-            System.out.println("Номера разрядов: " + "1" + " ; " + "1" + "\n");
+            System.out.println("Номера разрядов: " + "1" + " ; " + "1\n");
         } if (thirdNumberFour == thirdNumberFive) {
             System.out.println("Исходные числа: " + numFour + " ; " + numFive);
             System.out.println("Одинаковые в них цифры: " + thirdNumberFour);
-            System.out.println("Номера разрядов: " + "2" + " ; " + "2" + "\n");
+            System.out.println("Номера разрядов: " + "2" + " ; " + "2\n");
         } else {
-            System.out.println("Одинаковых цифр нет" + "\n");
+            System.out.println("Одинаковых цифр нет\n");
         }
 
         char symbol = '\u0031';
         System.out.println("5. Определение символа по его коду");
         if (Character.isLowerCase(symbol)) {
-            System.out.println("Символ " + symbol + " является маленькой буквой" + "\n");
+            System.out.println("Символ " + symbol + " является маленькой буквой\n");
         } else if (Character.isUpperCase(symbol)) {
-            System.out.println("Символ " + symbol + " является большой буквой" + "\n");
+            System.out.println("Символ " + symbol + " является большой буквой\n");
         } else if (Character.isDigit(symbol)) {
-            System.out.println("Символ " + symbol + " является цифрой" + "\n");
+            System.out.println("Символ " + symbol + " является цифрой\n");
         } else {
-            System.out.println("Символ " + symbol + " не буква и не цифра" + "\n");
+            System.out.println("Символ " + symbol + " не буква и не цифра\n");
         }
 
         int money = 301000;
@@ -210,9 +210,9 @@ public class IfElseStatementTheme {
         int income = things - rent - primeCost;
         System.out.println("8. Расчет годовой прибыли");
         if (income <= 0) {
-            System.out.println("Прибыль за год: " + income + " руб." + "\n");
+            System.out.println("Прибыль за год: " + income + " руб.\n");
         } else if (income > 0) {
-            System.out.println("Прибыль за год: +" + income + " руб." + "\n");
+            System.out.println("Прибыль за год: +" + income + " руб.\n");
         } 
     }
 }
