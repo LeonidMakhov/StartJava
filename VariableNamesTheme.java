@@ -24,7 +24,7 @@ public class VariableNamesTheme {
 
         //вес собаки
         int weightDog = countTen + 4;
-        System.out.println("6. вес собаки = " + weightDog + "кг"+ "\n");
+        System.out.println("6. вес собаки = " + weightDog + "кг\n");
 
         //исходное число
         int initNum = num;
@@ -32,7 +32,7 @@ public class VariableNamesTheme {
 
         //процент по вкладу
         int percent = 12; 
-        System.out.println("8. процент по вкладу = " + percent + "%" + "\n");
+        System.out.println("8. процент по вкладу = " + percent + "%\n");
 
         //(переменная хранит символ) &
         char symbol = '&'; 
@@ -80,7 +80,7 @@ public class VariableNamesTheme {
 
         //стоимость кофе на вынос
         int costCoffee = 14;
-        System.out.println("20. стоимость кофе на вынос = " + costCoffee + " $ " + "\n");
+        System.out.println("20. стоимость кофе на вынос = " + costCoffee + " $\n");
 
         //дата начала (чего-либо)
         Date date = new Date();
@@ -104,7 +104,7 @@ public class VariableNamesTheme {
 
         //вместимость (чего либо)
         int valueObject = 45;
-        System.out.println("26. вместимость (чего либо) = " + valueObject + "m3" + "\n");
+        System.out.println("26. вместимость (чего либо) = " + valueObject + "m3\n");
 
         //счетчик
         int countTime = valueObject + 1;
