@@ -154,8 +154,8 @@ public class VariableNamesTheme {
                 System.out.println("электронная почта действительная? = " + isValidEmail);
 
                 //имеются уникальные строки? 
-                boolean hasUniqStrings = false;
-                System.out.println("имеются уникальные строки? = " + hasUniqStrings + "\n");
+                boolean hasUniqueStrings = false;
+                System.out.println("имеются уникальные строки? = " + hasUniqueStrings + "\n");
 
                 System.out.println("3. Аббревиатуры");
 
