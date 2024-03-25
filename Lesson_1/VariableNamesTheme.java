@@ -187,6 +187,5 @@ public class VariableNamesTheme {
         String americanSCFII = "ASCII";
         System.out.println("кодировка american standard code for information interchange = " + 
             americanSCFII);
-
     }
 }
