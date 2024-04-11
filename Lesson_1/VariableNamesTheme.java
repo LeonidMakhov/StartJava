@@ -134,16 +134,16 @@ public class VariableNamesTheme {
         System.out.println("есть равные цифры? = " + hasEqualNumbers);
 
         //(что-либо) создано? 
-        boolean isCreate = true;
-        System.out.println("создано? = " + isCreate);
+        boolean create = true;
+        System.out.println("создано? = " + create);
 
         //(что-либо) пусто? 
-        boolean isEmpty = true;
-        System.out.println("пусто? = " + isEmpty);
+        boolean empty = true;
+        System.out.println("пусто? = " + empty);
 
         //(что-либо) активный? 
-        boolean isActive = true;
-        System.out.println("активный? = " + isActive);
+        boolean active = true;
+        System.out.println("активный? = " + active);
 
         //новый? 
         boolean isNew = true;
@@ -160,7 +160,7 @@ public class VariableNamesTheme {
         System.out.println("3. Аббревиатуры");
 
         //старый universally unique identifier 
-        String oldUUI = "dUUI";
+        String oldUUI = "oldUUI";
         System.out.println("старый universally unique identifier = " + oldUUI);
 
         //производитель оперативной памяти 
@@ -186,6 +186,6 @@ public class VariableNamesTheme {
         //кодировка american standard code for information interchange 
         String americanSCFII = "ASCII";
         System.out.println("кодировка american standard code for information interchange = " + 
-            americanSCFII);
+                americanSCFII);
     }
 }
