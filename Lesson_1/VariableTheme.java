@@ -3,9 +3,9 @@ import java.util.Date;
 public class VariableTheme {
     public static void main(String[] arg) {
         boolean wifi = true;
-        byte pcRAM = 16;
+        byte pcRam = 16;
         short bitBuilds = 64;
-        int hDD = 512000;
+        int valueHdd = 512000;
         long keyProduct = 455665221;
         char percent = '%';
         float cpuFrequency = 243.5f;
@@ -13,13 +13,13 @@ public class VariableTheme {
         String str = "Компьютер ЛЕОНИДА !!!!";
         System.out.println("1. Вывод характеристик компьютера");
         System.out.println("Имя компьютера- " + str + " на 100 " + percent + "\n" +
-                "Наличие Wifi- " + wifi +"\n" +
-                "Оперативная память- " + pcRAM + " Гб\n" +
+                "Наличие Wifi- " + wifi + "\n" +
+                "Оперативная память- " + pcRam + " Гб\n" +
                 "Тип системы- " + bitBuilds + " - разрядная система\n" +
-                "Емкость жесткого диска- " + hDD + " Мб\n" +
-                "Ключ продукта- " + keyProduct +"\n" +
+                "Емкость жесткого диска- " + valueHdd + " Мб\n" +
+                "Ключ продукта- " + keyProduct + "\n" +
                 "Частота процессора- " + cpuFrequency + "GHz\n" +
-                "Сборка ОС- " + pcBuildNumber +"\n");
+                "Сборка ОС- " + pcBuildNumber + "\n");
 
         double penCost = 100d;
         double bookCost = 200d;
@@ -39,20 +39,20 @@ public class VariableTheme {
         byte maxEeightBitInteger = 127;
         short maxSixteenBitInteger = 32767;
         int maxThirtyTwonBitInteger = 2147483647;
-        long maxLongInteger = 9223372036854775807l;
+        long maxLongInteger = 9223372036854775807L;
         System.out.println("4. Вывод min и max значений целых числовых типов");
         System.out.println("первоначальное значение = " + maxEeightBitInteger + "\n" +
                 "значение после инкремента на единицу = " + (++maxEeightBitInteger) + "\n" +
                 "значение после декремента на единицу = " + (--maxEeightBitInteger) + "\n");
         System.out.println("первоначальное значение = " + maxSixteenBitInteger + "\n" +
                 "значение после инкремента на единицу = " + (++maxSixteenBitInteger) + "\n" +
-                "значение после декремента на единицу = " + (--maxSixteenBitInteger)+ "\n");
+                "значение после декремента на единицу = " + (--maxSixteenBitInteger) + "\n");
         System.out.println("первоначальное значение = " + maxThirtyTwonBitInteger + "\n" +
                 "значение после инкремента на единицу = " + (++maxThirtyTwonBitInteger) + "\n" +
-                "значение после декремента на единицу = " + (--maxThirtyTwonBitInteger)+ "\n");
+                "значение после декремента на единицу = " + (--maxThirtyTwonBitInteger) + "\n");
         System.out.println("первоначальное значение = " + maxLongInteger + "\n" +
                 "значение после инкремента на единицу = " + (++maxLongInteger) + "\n" +
-                "значение после декремента на единицу = " + (--maxLongInteger)+ "\n");
+                "значение после декремента на единицу = " + (--maxLongInteger) + "\n");
 
         int varFirst = 2;
         int varSecond = 5;
@@ -81,7 +81,7 @@ public class VariableTheme {
                 "Второе значение = " + (Integer.toBinaryString(varSecond)));
         System.out.println("новые значения переменных:\n" +
                 "Первое значение = " + (Integer.toBinaryString(varFirst ^ varFirst | varSecond)) + "\n" +
-                "Второе значение = " + (Integer.toBinaryString(varSecond ^ varSecond|varFirst)) + "\n");
+                "Второе значение = " + (Integer.toBinaryString(varSecond ^ varSecond | varFirst)) + "\n");
 
         int decimalDollar = 36;
         char characterDollar = '$';
@@ -131,6 +131,6 @@ public class VariableTheme {
         int min = (sec / 60) % 60;
         int hour = sec / 3600;
         System.out.println("9. Вывод времени: " + hour + ":" + min + ":" + 
-                (sec % 60)+ "\n");
+                (sec % 60) + "\n");
     }
 }
