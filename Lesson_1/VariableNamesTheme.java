@@ -1,11 +1,11 @@
 import java.util.Date;
 
 public class VariableNamesTheme {
-    public static void main(String[] arg) {
+    public static void main(String[] args) {
         System.out.println("1. Разные переменные");
         // цифра
-        int num = 2;
-        System.out.println("цифра = " + num);
+        int number = 2;
+        System.out.println("цифра = " + number);
 
         // сумма чисел
         int sumNumbers = 40 + 14;
@@ -28,12 +28,12 @@ public class VariableNamesTheme {
         System.out.println("вес собаки = " + dogWeight + "кг");
 
         // исходное число
-        int originalNumber = num;
+        int originalNumber = number;
         System.out.println("исходное число = " + originalNumber);
 
         // процент по вкладу
-        int interestOnDeposit = 12; 
-        System.out.println("процент по вкладу = " + interestOnDeposit + "%");
+        int interestRate = 12; 
+        System.out.println("процент по вкладу = " + interestRate + "%");
 
         // (переменная хранит символ) &
         char ampersand = '&'; 
@@ -134,8 +134,8 @@ public class VariableNamesTheme {
         System.out.println("есть равные цифры? = " + hasEqualNumbers);
 
         // (что-либо) создано? 
-        boolean create = true;
-        System.out.println("создано? = " + create);
+        boolean isCreated = true;
+        System.out.println("создано? = " + isCreated);
 
         // (что-либо) пусто? 
         boolean empty = true;
@@ -160,8 +160,8 @@ public class VariableNamesTheme {
         System.out.println("3. Аббревиатуры");
 
         // старый universally unique identifier 
-        String oldUui = "oldUUI";
-        System.out.println("старый universally unique identifier = " + oldUui);
+        String oldUuid = "oldUUID";
+        System.out.println("старый universally unique identifier = " + oldUuid);
 
         // производитель оперативной памяти 
         String ramManufacturer = "Xerox";
@@ -184,8 +184,7 @@ public class VariableNamesTheme {
         System.out.println("новый идентификатор клиента = " + newClientId);
 
         // кодировка american standard code for information interchange 
-        String ascfii = "ASCII";
-        System.out.println("кодировка american standard code for information interchange = " + 
-                ascfii);
+        String ascii = "ASCII";
+        System.out.println("кодировка american standard code for information interchange = " + ascii);
     }
 }
