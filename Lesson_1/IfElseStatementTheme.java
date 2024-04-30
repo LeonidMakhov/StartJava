@@ -1,7 +1,7 @@
 import java.util.Date;
 
 public class IfElseStatementTheme {
-    public static void main(String[] arg) {
+    public static void main(String[] args) {
         String sex = "man";
         System.out.println("1. Перевод псевдокода на язык Java");
         if (sex != "man") {
