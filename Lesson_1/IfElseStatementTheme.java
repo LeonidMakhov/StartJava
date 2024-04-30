@@ -89,8 +89,8 @@ public class IfElseStatementTheme {
             System.out.println("Одинаковых цифр нет\n");
         }
 
-        char symbol = '\u0031';
         System.out.println("5. Определение символа по его коду");
+        char symbol = '\u0057';
         if (Character.isLowerCase(symbol)) {
             System.out.println("Символ " + symbol + " является маленькой буквой\n");
         } else if (Character.isUpperCase(symbol)) {
