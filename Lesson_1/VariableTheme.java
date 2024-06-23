@@ -57,11 +57,11 @@ public class VariableTheme {
         System.out.println("5. Перестановка значений переменных");
         int a = 2;
         int b = 5;
-        int swap = b;
         System.out.println("исходные значения переменных:\n" +
                 "Первое значение = " + a + "\n" +
                 "Второе значение = " + b + "\n");
         System.out.println("с помощью третьей переменной");
+        int swap = b;
         b = a;
         a = swap;
         System.out.println("новые значения переменных:\n" +
